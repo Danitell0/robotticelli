@@ -1,0 +1,17 @@
+# Arm control (SO-101 follower, Feetech servos)
+lerobot[feetech]>=0.6
+
+# Image -> strokes pipeline
+numpy>=2.0
+opencv-python-headless>=4.10
+pillow>=10.0
+python-dotenv>=1.0
+scikit-image>=0.22
+skan>=0.11
+
+# AI features (optional)
+anthropic>=1.0
+openai>=1.0
+
+# tools/dataset_to_svg.py
+pandas>=2.0
